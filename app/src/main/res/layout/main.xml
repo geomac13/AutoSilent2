@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LayoutProfiles">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/plusbutton"
+        android:layout_marginBottom="71dp"
+        android:clickable="true"
+        android:elevation="8dp"
+        android:focusable="true"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_centerHorizontal="true"
+        android:maxHeight="56dp"
+        android:maxWidth="56dp"
+        android:minHeight="56dp"
+        android:minWidth="56dp"
+        android:nestedScrollingEnabled="true"
+        android:layout_centerVertical="true"
+        android:onClick="newProfile"
+        android:focusableInTouchMode="true"
+        android:translationZ="16dp"
+        android:paddingBottom="20dp"
+        android:contentDescription="@+id/addProfileButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Profile"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp" />
+</RelativeLayout>
